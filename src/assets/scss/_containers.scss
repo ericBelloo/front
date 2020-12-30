@@ -1,0 +1,61 @@
+@import './colors';
+
+  
+.heroe-list{
+    &-box{
+        width: 240px;
+        box-sizing:border-box;
+        padding: 10px;            
+    }
+    &-content{
+        box-sizing:border-box;
+        background-color: $grey-lighten-5;
+        padding:20px;
+        border-radius: 5px;
+        font-family: sans-serif;
+        font-size: 0.8em;
+        -webkit-box-shadow: 0px 3px 5px 0px $grey-lighten-1;
+        -moz-box-shadow: 0px 3px 5px 0px $grey-lighten-1;
+        box-shadow: 0px 3px 5px 0px $grey-lighten-1;
+        position:relative;
+
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;        
+
+        h2{
+            color: $grey-dark-4;
+            font-family: 'Roboto Condensed', sans-serif;
+            margin: 5px auto;
+        }
+        p{
+            margin: 10px;
+            text-align: justify;
+            color: $grey-dark-4;        
+        }
+        span{
+            color: $grey-dark-3;
+        }
+        button{             
+            width: 150px;
+            height: 30px;           
+            margin: 10px;
+            border: 1px solid $blue-lighten-2;
+            background-color: $grey-lighten-5;  
+            border-radius: 5px;
+            color: $blue-lighten-1;
+            font-family: 'Roboto Condensed', sans-serif;
+            font-size: 1.2em;
+            &:hover{
+                background-color: $blue-lighten-1;
+                color: $white;
+            }
+        }    
+        &:hover{           
+            -webkit-box-shadow: 0px 1px 5px 0px $blue-lighten-1;
+            -moz-box-shadow: 0px 1px 5px 0px $blue-lighten-1;
+            box-shadow: 0px 1px 5px 0px $blue-lighten-1;             
+        }
+    }
+}

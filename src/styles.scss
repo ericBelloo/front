@@ -1,1 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
+@import './assets/scss/containers';
+@import './assets/scss/layouts';
+@import './assets/scss/colors';
+@import './assets/scss/fonts';
+
+body{
+    background-color: $grey-lighten-4;
+}
+
+
+  
+  
+  

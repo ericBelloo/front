@@ -1,0 +1,35 @@
+
+<div id=id_hoeroes_list>     
+    <div [ngClass]="['heroe-list-box']" *ngFor="let heroe of heroes">
+        <div [ngClass]="['heroe-list-content']">             
+            <h2>{{ heroe.name }}</h2>                   
+            <p>{{ heroe.description }}</p>     
+            <span>Aparición: {{ heroe.apparition }}</span>
+            <button (click)="getHeroe(heroe.pk)">VER</button>
+        </div>
+    </div>    
+    <div [ngClass]="['heroe-list-box']" *ngFor="let heroe of heroes">
+        <div [ngClass]="['heroe-list-content']">         
+            <h2>{{ heroe.name }}</h2>                   
+            <p>{{ heroe.description }}</p>     
+            <span>{{ heroe.apparition }}</span>       
+            <button (click)="getHeroe(heroe.pk)">VER</button>
+        </div>
+    </div>    
+    <div [ngClass]="['heroe-list-box']" *ngFor="let heroe of heroes">
+        <div [ngClass]="['heroe-list-content']">      
+            <h2>{{ heroe.name }}</h2>                   
+            <p>{{ heroe.description }}</p>   
+            <span>{{ heroe.apparition }}</span>
+            <button (click)="getHeroe(heroe.pk)">VER</button>
+        </div>
+    </div>    
+    <div [ngClass]="['heroe-list-box']" *ngFor="let heroe of heroes">
+        <div [ngClass]="['heroe-list-content']">     
+            <h2>{{ heroe.name }}</h2>                   
+            <p>{{ heroe.description }}</p>            
+            <span>{{ heroe.apparition }}</span>
+            <button (click)="getHeroe(heroe.pk)">VER</button>
+        </div>
+    </div>          
+</div>
